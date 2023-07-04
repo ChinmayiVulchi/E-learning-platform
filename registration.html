@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>  login</title>
+         <style>
+            body{
+                background-image: linear-gradient(rgba(221, 212, 212, 0.8), rgba(63, 151, 196, 0.8)), url('https://img.freepik.com/premium-vector/gradient-abstract-square-triangle-background-cool-ice-colored-polygonal-backdrop-mobile-application-web-trendy-geometric-abstract-banner-technology-concept-flyer-mosaic-style_121461-3071.jpg');
+            }
+            .grid_container{
+                font-size: xx-large;
+                text-align:center;
+                height:400px;
+                width:500px;
+                border-radius: 10px;
+                border:2px solid;
+                margin: 170px 550px;   
+                background-color:white;            
+            }
+         </style>
+    </head>
+    <body>
+        <form class="grid_container" action="connect.php" method="post">
+            <br>
+           <label><b style="font:X-large Times New Roman">   Name </b> <input type="text" name="name" placeholder="Enter your name" size="30" /> </label><br>
+           <label><b style="font:X-large Times New Roman">   Email </b> <input type="text" name="email" placeholder="Enter your email" size="30" /> </label><br>
+           <label><b style="font:X-large Times New Roman">   Date of Birth </b><input type="date" name="date_birth" placeholder="Enter your date of birth" size=30/> </label><br>
+           <label><b style="font:X-large Times New Roman">   Highest Qualification</b></label> <select name="Qualification">
+            <option> SSC</option>
+            <option> Intermediate</option>
+            <option> B.E/Btech</option> 
+            <option> B.Com.</option>
+            <option> B.Sc.</option>
+            <option> MBA</option>
+            <option> Other</option>
+           </select><br>
+           <label> <b style="font:X-large Times New Roman" >Gender</b></label> <select name="Gender">
+            <option> Male</option>
+            <option> Female</option>
+           <option> Not willing to disclose</option>
+           </select><br>
+           <label><b style="font:X-large Times New Roman">Address </b> <input type="text" name="address" placeholder="Enter your address" size="30" /> </label><br>
+           <label><b style="font:X-large Times New Roman">Mobile Number </b> <input type="text" name="mobile" placeholder="Enter your mobile" size="30" /> </label><br>
+           <label><b style="font:X-large Times New Roman">Password </b> <input type="password" name="password" placeholder="Enter your password" size="35" /> </label><br>
+           <input type="submit"  >
+           <input type="reset">
+           <br><Br>
+        </form>
+    </body>
+</html>
